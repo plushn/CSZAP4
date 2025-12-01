@@ -1,5 +1,25 @@
 # HTTP serverを作ってみた
 
+## C言語 + system call で HTTP Server を作成する課題
+
+```bash
+GET /calc?query=2+10 HTTP/1.1
+```
+
+という入力に対して、
+
+```bash
+HTTP/1.1 200 OK
+Content-Length: 2
+
+12
+```
+
+を返す。
+
+---
+## 使い方
+
 1. サーバーをコンパイル
 
 ```bash
